@@ -7,8 +7,6 @@ public class Main {
                 DaggerCommandRouterFactory.create();
         CommandRouter commandRouter = commandRouterFactory.router();
 
-        System.out.println(commandRouter.getClass().getSimpleName());
-
         while (scanner.hasNextLine()) {
             commandRouter.route(scanner.nextLine());
         }
