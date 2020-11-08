@@ -1,4 +1,4 @@
-package main;
+package main.module;
 
 import main.command.Outputter;
 import dagger.Module;

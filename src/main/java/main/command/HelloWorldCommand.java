@@ -13,11 +13,6 @@ public class HelloWorldCommand implements Command {
     }
 
     @Override
-    public String key() {
-        return "hello";
-    }
-
-    @Override
     public Status handleInput(List<String> input) {
         outputter.output("world");
         return Status.HANDLED;

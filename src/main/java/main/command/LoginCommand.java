@@ -15,11 +15,8 @@ public class LoginCommand extends SingleArgCommand {
     public LoginCommand(Database database, Outputter outputter) {
         this.database = database;
         this.outputter = outputter;
-    }
 
-    @Override
-    public String key() {
-        return "login";
+        System.out.println("Creating a new " + this);
     }
 
     @Override
