@@ -1,4 +1,4 @@
-package command;
+package main.command;
 
 import java.util.List;
 

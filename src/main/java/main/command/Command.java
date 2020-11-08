@@ -1,16 +1,16 @@
-package command;
+package main.command;
 
 import java.util.List;
 
 /** Logic to process some user input. */
 public interface Command {
     /**
-     * String token that signifies this command should be selected (e.g.:
+     * String token that signifies this main.command should be selected (e.g.:
      * "deposit", "withdraw")
      */
     String key();
 
-    /** Process the rest of the command's words and do something. */
+    /** Process the rest of the main.command's words and do something. */
     Status handleInput(List<String> input);
 
     enum Status {

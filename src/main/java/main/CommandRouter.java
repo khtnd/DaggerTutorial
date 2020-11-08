@@ -1,4 +1,6 @@
-import command.Command;
+package main;
+
+import main.command.Command;
 
 import javax.inject.Inject;
 import java.util.*;

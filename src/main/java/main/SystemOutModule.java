@@ -1,4 +1,6 @@
-import command.Outputter;
+package main;
+
+import main.command.Outputter;
 import dagger.Module;
 import dagger.Provides;
 

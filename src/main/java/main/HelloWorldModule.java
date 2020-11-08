@@ -1,5 +1,7 @@
-import command.Command;
-import command.HelloWorldCommand;
+package main;
+
+import main.command.Command;
+import main.command.HelloWorldCommand;
 import dagger.Binds;
 import dagger.Module;
 import dagger.multibindings.IntoMap;

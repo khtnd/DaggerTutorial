@@ -1,4 +1,4 @@
-package command;
+package main.command;
 
 import javax.inject.Inject;
 import java.util.List;

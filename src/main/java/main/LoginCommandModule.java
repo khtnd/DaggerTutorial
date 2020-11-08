@@ -1,5 +1,7 @@
-import command.Command;
-import command.LoginCommand;
+package main;
+
+import main.command.Command;
+import main.command.LoginCommand;
 import dagger.Binds;
 import dagger.Module;
 import dagger.multibindings.IntoMap;
