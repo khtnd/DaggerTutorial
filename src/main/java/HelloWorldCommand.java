@@ -3,8 +3,11 @@ import java.util.List;
 
 public class HelloWorldCommand implements Command {
 
+    private Outputter outputter;
+
     @Inject
-    public HelloWorldCommand() {
+    public HelloWorldCommand(Outputter outputter) {
+        this.outputter = outputter;
     }
 
     @Override
@@ -14,10 +17,7 @@ public class HelloWorldCommand implements Command {
 
     @Override
     public Status handleInput(List<String> input) {
-        if (!input.isEmpty()) {
-            return Status.INVALID;
-        }
-        System.out.println("world!");
+        outputter.output("world");
         return Status.HANDLED;
     }
 }
