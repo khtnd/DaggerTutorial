@@ -1,3 +1,5 @@
+import command.Command;
+
 import javax.inject.Inject;
 import java.util.*;
 

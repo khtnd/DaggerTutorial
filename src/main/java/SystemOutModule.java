@@ -1,3 +1,4 @@
+import command.Outputter;
 import dagger.Module;
 import dagger.Provides;
 

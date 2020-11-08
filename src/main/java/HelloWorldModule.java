@@ -1,3 +1,5 @@
+import command.Command;
+import command.HelloWorldCommand;
 import dagger.Binds;
 import dagger.Module;
 

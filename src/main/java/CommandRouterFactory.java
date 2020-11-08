@@ -1,6 +1,6 @@
 import dagger.Component;
 
-@Component(modules = {HelloWorldModule.class, SystemOutModule.class})
+@Component(modules = {SystemOutModule.class, LoginCommandModule.class})
 public interface CommandRouterFactory {
     CommandRouter router();
 }

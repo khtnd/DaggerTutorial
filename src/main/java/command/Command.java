@@ -1,3 +1,5 @@
+package command;
+
 import java.util.List;
 
 /** Logic to process some user input. */
